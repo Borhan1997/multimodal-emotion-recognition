@@ -1,0 +1,7 @@
+transformers>=4.46,<5
+pandas
+opencv-python-headless
+scikit-learn
+soundfile
+tensorboard
+tqdm

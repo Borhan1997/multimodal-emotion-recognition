@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Datasets and pre-extracted features (large; download separately, see README)
+dataset/
+MELD.Features.Models/
+
+# Training outputs
+training/runs/
+runs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+model.tar.gz
+
+# Secrets / local config
+.env
+*.pem
+.aws/
+
+# Graphify / tooling output
+graphify-out/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
