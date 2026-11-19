@@ -1,0 +1,14 @@
+# Core dependencies for local training/inference.
+# Exact versions from a working environment: requirements-lock.txt
+# (SageMaker uses training/requirements.txt on top of its PyTorch container.)
+torch
+torchvision
+torchaudio
+transformers>=4.46,<5
+numpy
+pandas
+opencv-python-headless
+scikit-learn
+soundfile
+tensorboard
+tqdm
